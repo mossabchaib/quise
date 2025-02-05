@@ -1,0 +1,116 @@
+.body {
+  height: 500px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: rgba(251, 249, 249, 0.889);
+}
+.center {
+  height: 100%;
+  width: 50%;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 0 5px rgba(2px, 2px, 5px, 15px);
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 30px;
+  justify-content: space-between;
+}
+.title {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+.title h1 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.paragraphe {
+  width: 500px;
+}
+.paragraphe p {
+  font-weight: 100;
+}
+.emailinput {
+  display: flex;
+
+  height: 55px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding-right: 20px;
+  padding-left: 10px;
+}
+.emailinput input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+ 
+}
+.emailinput input:focus {
+  border: none;
+}
+.form {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+}
+.passwordinput {
+  width: 100px;
+  margin-left: 15px;
+}
+.button {
+  width: 70%;
+  height: 150px;
+  box-shadow: 0 0 5px rgba(82, 80, 80, 0.3);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button p {
+  line-height: 4em;
+  font-weight: 700;
+}
+.button:hover {
+  background-color: black;
+}
+.button:hover p {
+  color: white;
+}
+.inputcheckbox {
+  width: 40%;
+}
+@media (max-width: 768px) {
+  .body {
+    padding-left: 0px;
+    padding-right: 0;
+    height: 700px;
+
+    width: 100%;
+  }
+  .center {
+    width: 100%;
+    width: 100%;
+    box-shadow: none;
+    padding-left: 70px;
+  }
+  .button {
+    margin-left: 120px;
+  }
+  .inputcheckbox {
+    width: 500px;
+  }
+}
